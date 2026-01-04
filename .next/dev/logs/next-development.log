@@ -1,1 +1,2 @@
-[00:00:00.468] Server  LOG     ✓ Ready in 344ms
+[00:00:00.715] Server  LOG     ✓ Ready in 533ms
+[05:22:14.341] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/logo.png" "received" null

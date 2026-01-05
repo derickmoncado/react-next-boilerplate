@@ -4,10 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
 	return (
 		<div className={styles.page}>
-			<main className={styles.main}>
-				<Image className={styles.logo} src="/next.svg" alt="Next.js logo" width={100} height={20} priority />
-				<h1 className={styles.title}>Here is my site yahoo</h1>
-			</main>
+			<p>here is my sick ass site yahooo</p>
 		</div>
 	);
 }

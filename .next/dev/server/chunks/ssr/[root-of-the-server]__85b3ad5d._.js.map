@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/derickmoncado/Repositories/react-next-boilerplate/src/app/home/page.tsx"],"sourcesContent":["export default function HomePage() {\n\treturn (\n\t\t<main>\n\t\t\t<header>\n\t\t\t\t<p>Home</p>\n\t\t\t\t<h1>Welcome to the home page</h1>\n\t\t\t\t<p>Here is some placeholder text weeee.</p>\n\t\t\t</header>\n\t\t</main>\n\t);\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACvB,qBACC,8OAAC;kBACA,cAAA,8OAAC;;8BACA,8OAAC;8BAAE;;;;;;8BACH,8OAAC;8BAAG;;;;;;8BACJ,8OAAC;8BAAE;;;;;;;;;;;;;;;;;AAIP"}}]
+}

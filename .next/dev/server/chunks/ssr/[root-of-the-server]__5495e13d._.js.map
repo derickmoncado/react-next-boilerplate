@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/derickmoncado/Repositories/react-next-boilerplate/src/app/page-1/page.tsx"],"sourcesContent":["export default function Page1() {\n\treturn (\n\t\t<>\n\t\t\t<h1>Page 1</h1>\n\t\t\t<p>Placeholder text</p>\n\t\t</>\n\t);\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACvB,qBACC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;;;AAGN"}}]
+}

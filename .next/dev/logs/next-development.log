@@ -1,12 +1,1 @@
-[00:00:00.778] Server  LOG     ✓ Ready in 569ms
-[02:57:52.026] Browser ERROR   ./src/app/page-1/page.tsx:4:20
-Parsing ecmascript source code failed
-  2 | 	return (
-  3 | 				<h1>Page 1</h1>
-> 4 | 				<p>Placeholder text</p>
-    | 				               ^^^^
-  5 | 	);
-  6 | }
-  7 |
-
-Expected ',', got 'text'
+[00:00:00.610] Server  LOG     ✓ Ready in 437ms

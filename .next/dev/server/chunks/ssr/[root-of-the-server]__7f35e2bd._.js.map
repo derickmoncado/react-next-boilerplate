@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/page.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"ctas\": \"page-module___8aEwW__ctas\",\n  \"intro\": \"page-module___8aEwW__intro\",\n  \"logo\": \"page-module___8aEwW__logo\",\n  \"main\": \"page-module___8aEwW__main\",\n  \"page\": \"page-module___8aEwW__page\",\n  \"primary\": \"page-module___8aEwW__primary\",\n  \"secondary\": \"page-module___8aEwW__secondary\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA"}},
-    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file:///Users/derickmoncado/Repositories/react-next-boilerplate/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport styles from \"./page.module.css\";\n\nexport default function Home() {\n\treturn (\n\t\t<div className={styles.page}>\n\t\t\t<main className={styles.main}>\n\t\t\t\t<Image className={styles.logo} src=\"../images/next.svg\" alt=\"Next.js logo\" width={100} height={20} priority />\n\t\t\t\t<h1 className={styles.title}>Here is my site yahoo</h1>\n\t\t\t</main>\n\t\t</div>\n\t);\n}\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEe,SAAS;IACvB,qBACC,8OAAC;QAAI,WAAW,yIAAM,CAAC,IAAI;kBAC1B,cAAA,8OAAC;YAAK,WAAW,yIAAM,CAAC,IAAI;;8BAC3B,8OAAC,wIAAK;oBAAC,WAAW,yIAAM,CAAC,IAAI;oBAAE,KAAI;oBAAqB,KAAI;oBAAe,OAAO;oBAAK,QAAQ;oBAAI,QAAQ;;;;;;8BAC3G,8OAAC;oBAAG,WAAW,yIAAM,CAAC,KAAK;8BAAE;;;;;;;;;;;;;;;;;AAIjC"}}]
-}

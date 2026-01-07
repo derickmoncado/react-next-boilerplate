@@ -1,9 +1,19 @@
 # Dependencies
 node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
 # Next.js build artifacts
-.next
-out
+/.next/
+/out/
+
+# testing
+/coverage
 
 # Environment files
 .env
@@ -15,12 +25,16 @@ out
 # Other build outputs
 dist
 
+# production
+/build
+
 # Tooling and deployment
 .turbo
 .vercel
 
 # OS files
 .DS_Store
+*.pem
 
 # Package manager logs
 npm-debug.log*

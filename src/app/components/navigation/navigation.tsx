@@ -12,31 +12,33 @@ export default function Navigation() {
 		<nav className={styles["navigation"]}>
 			<div className="container">
 				<div className={styles["navigation__inner"]}>
-					<div className={styles.logo}>
+					<div className={styles["navigation__inner__logo"]}>
 						<Link href="/">LOGO HERE</Link>
 					</div>
-					<ul>
-						<li>
-							<Link href="/" className={getActiveClass("/")}>
-								Home
-							</Link>
-						</li>
-						<li>
-							<Link href="/page-1" className={getActiveClass("/page-1")}>
-								Page 1
-							</Link>
-						</li>
-						<li>
-							<Link href="/page-2" className={getActiveClass("/page-2")}>
-								Page 2
-							</Link>
-						</li>
-						<li>
-							<Link href="page-3" className={getActiveClass("page-3")}>
-								Page 3
-							</Link>
-						</li>
-					</ul>
+					<div className={styles["navigation__inner__links"]}>
+						<ul>
+							<li>
+								<Link href="/" className={getActiveClass("/")}>
+									Home
+								</Link>
+							</li>
+							<li>
+								<Link href="/page-1" className={getActiveClass("/page-1")}>
+									Page 1
+								</Link>
+							</li>
+							<li>
+								<Link href="/page-2" className={getActiveClass("/page-2")}>
+									Page 2
+								</Link>
+							</li>
+							<li>
+								<Link href="page-3" className={getActiveClass("page-3")}>
+									Page 3
+								</Link>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</nav>

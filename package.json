@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "upgrade": "npx npm-check-updates -u && npm install",
+    "next-codemod": "npx @next/codemod@latest"
   },
   "dependencies": {
     "next": "16.1.1",

@@ -1,0 +1,15 @@
+@use './variables'as *; // Adjust path as needed
+
+// Primary Button
+@mixin primary-btn {
+    background-color: $primary-red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($primary-red, 10%);
+    }
+}

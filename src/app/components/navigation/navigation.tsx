@@ -3,6 +3,7 @@
 import styles from "./navigation.module.scss";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Coffee } from "lucide-react";
 
 export default function Navigation() {
 	const currentPath = usePathname();
@@ -13,7 +14,9 @@ export default function Navigation() {
 			<div className="container">
 				<div className={styles["navigation__inner"]}>
 					<div className={styles["navigation__inner__logo"]}>
-						<Link href="/">LOGO HERE</Link>
+						<Link href="/">
+							LOGO HERE <Coffee />
+						</Link>
 					</div>
 					<div className={styles["navigation__inner__links"]}>
 						<ul>

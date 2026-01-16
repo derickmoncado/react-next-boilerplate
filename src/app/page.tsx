@@ -19,13 +19,13 @@ export default function Home() {
 				&nbsp; here is a carousel
 			</p>
 			<br />
-			<div className="embla" ref={emblaRef}>
+			<section className="embla" ref={emblaRef}>
 				<div className="embla__container">
 					<div className="embla__slide">Slide 1</div>
 					<div className="embla__slide">Slide 2</div>
 					<div className="embla__slide">Slide 3</div>
 				</div>
-			</div>
+			</section>
 		</div>
 	);
 }

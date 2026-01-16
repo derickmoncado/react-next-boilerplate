@@ -15,7 +15,7 @@ export default function Navigation() {
 				<div className={styles["navigation__inner"]}>
 					<div className={styles["navigation__inner__logo"]}>
 						<Link href="/">
-							LOGO HERE <Coffee />
+							<Coffee /> <p>Logo</p>
 						</Link>
 					</div>
 					<div className={styles["navigation__inner__links"]}>

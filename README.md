@@ -1,6 +1,10 @@
+# React + Next.js Boilerplate (with TypeScript)
+
+Frontend starter kit with Lucide Icons and Embla Carousel, see details below :)
+
 ## Updating Dependencies
 
-Keep the boilerplate current with these scripts:
+Keep the boilerplate current with these scripts (run these first, then fire up the dev server):
 
 ```bash
 # Update package versions and reinstall
@@ -16,7 +20,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+How to run the development server:
 
 ```bash
 npm run dev
@@ -30,18 +34,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file (hot reloading).
 
 ## Deploy on Vercel
 

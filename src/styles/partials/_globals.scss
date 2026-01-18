@@ -36,3 +36,49 @@ svg {
     flex: 0 0 100%;
     min-width: 0;
 }
+
+.embla__controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.embla__buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.embla__button {
+    border: 1px solid #111;
+    background: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.embla__button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.embla__dots {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    justify-content: center;
+}
+
+.embla__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.embla__dot--selected {
+    background: #111;
+}

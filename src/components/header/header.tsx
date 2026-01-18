@@ -1,24 +1,24 @@
 "use client";
 
-import styles from "./navigation.module.scss";
+import styles from "./header.module.scss";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Coffee } from "lucide-react";
 
-export default function Navigation() {
+export default function Header() {
 	const currentPath = usePathname();
 	const getActiveClass = (path: string) => (currentPath === path ? styles.active : undefined);
 
 	return (
-		<nav className={styles["navigation"]}>
+		<nav className={styles["header"]}>
 			<div className="container">
-				<div className={styles["navigation__inner"]}>
-					<div className={styles["navigation__inner__logo"]}>
+				<div className={styles["header__inner"]}>
+					<div className={styles["header__inner__logo"]}>
 						<Link href="/">
 							<Coffee /> <p>Logo</p>
 						</Link>
 					</div>
-					<div className={styles["navigation__inner__links"]}>
+					<div className={styles["header__inner__links"]}>
 						<ul>
 							<li>
 								<Link href="/" className={getActiveClass("/")}>

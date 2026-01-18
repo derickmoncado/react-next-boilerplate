@@ -10,7 +10,7 @@ export default function Header() {
 	const getActiveClass = (path: string) => (currentPath === path ? styles.active : undefined);
 
 	return (
-		<nav className={styles["header"]}>
+		<header className={styles["header"]}>
 			<div className="container">
 				<div className={styles["header__inner"]}>
 					<div className={styles["header__inner__logo"]}>
@@ -18,7 +18,7 @@ export default function Header() {
 							<Coffee /> <p>Logo</p>
 						</Link>
 					</div>
-					<div className={styles["header__inner__links"]}>
+					<nav className={styles["header__inner__nav"]}>
 						<ul>
 							<li>
 								<Link href="/" className={getActiveClass("/")}>
@@ -41,9 +41,9 @@ export default function Header() {
 								</Link>
 							</li>
 						</ul>
-					</div>
+					</nav>
 				</div>
 			</div>
-		</nav>
+		</header>
 	);
 }
